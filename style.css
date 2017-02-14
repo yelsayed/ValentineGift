@@ -4,7 +4,7 @@ html {
   width: 100%;
 }
 html * {
-  transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 1s ease;
 }
 
 body {
@@ -40,22 +40,6 @@ h1, .fa {
 .fa {
   font-size: 10em !important;
   display: block;
-}
-
-.up {
-  top: -10000px;
-}
-
-.down {
-  top: 10000px;
-}
-
-.right {
-  left: -10000px;
-}
-
-.left {
-  left: 10000px;
 }
 
 .red {
